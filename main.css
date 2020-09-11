@@ -18,3 +18,7 @@ box-sizing: border-box;
 background: #ccc;
 float: right;
 }
+
+.fb-page {
+float: left;
+}
