@@ -11,8 +11,8 @@ width: 100%;
 }
 
 aside {
+margin-top: 30px;
 width: 30%;
-right-width: 50%;
 padding: 20px;
 box-sizing: border-box;
 background: #ccc;
