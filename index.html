@@ -1,5 +1,6 @@
 <html>
     <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <title>PYNews - Noticias Paraguayas e internacionales</title>
         <link rel="icon" type="image/png" href="archivos/favicon-pynews.png">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
@@ -8,7 +9,18 @@
         <link href="main.css" rel="stylesheet" />
     </head>
     <body>
-       
+       <nav class="navbar navbar-inverse">
+         <div class="container-fluid">
+           <div class="navbar-header">
+           <a class="navbar-brand" href="#">PYNews</a>
+           </div>
+          <ul class="nav navbar-nav">
+           <li class="active"><a href="#">Inicio</a></li>
+           <li><a href="contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+        
        <script>
        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
           window.location.href = "https://m.pynews.ml"
